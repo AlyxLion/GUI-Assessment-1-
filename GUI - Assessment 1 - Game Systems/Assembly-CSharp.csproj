@@ -56,7 +56,12 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Seance 1 scripts\LoadingScene.cs" />
+    <Compile Include="Assets\Scripts\Seance 0 scripts\LoadingScene.cs" />
+    <Compile Include="Assets\Scripts\Seance 0 scripts\SpinnyHeads.cs" />
+    <Compile Include="Assets\Scripts\Scean 1 scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Scean 1 scripts\KeyBindManager.cs" />
+    <Compile Include="Assets\Scripts\Scean 2 scripts\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\Scean 1 scripts\StayingAlive.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
