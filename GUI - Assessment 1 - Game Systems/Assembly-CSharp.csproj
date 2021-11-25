@@ -56,14 +56,36 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Seance 0 scripts\LoadingScene.cs" />
-    <Compile Include="Assets\Scripts\Seance 0 scripts\SpinnyHeads.cs" />
-    <Compile Include="Assets\Scripts\Scean 1 scripts\MainMenu.cs" />
-    <Compile Include="Assets\Scripts\Scean 1 scripts\KeyBindManager.cs" />
-    <Compile Include="Assets\Scripts\Scean 2 scripts\PauseMenu.cs" />
-    <Compile Include="Assets\Scripts\Scean 1 scripts\StayingAlive.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Player Scripts\CharrCust\Attributes.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Player Scripts\CharrCust\Stats.cs" />
+    <Compile Include="Assets\Scripts\Scene 0\SpinnyHeads.cs" />
+    <Compile Include="Assets\Scripts\Scene 1\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Scene 0\LoadingScene.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Enermy\WolfAI.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Player\Interact.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Saves\PlayerData.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Enermy\GradientHealth.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Enermy\AngryKevinWayPoints.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Player Hud\Compass.cs" />
+    <Compile Include="Assets\Scripts\Common\KeyBindManager.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Saves\SaveAndLoad.cs" />
+    <Compile Include="Assets\Scripts\Scene 1\StayingAlive.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Player\PlayerHandler.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Player Scripts\CharrCust\UICustChar.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Player\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Saves\PlayerBinary.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\NPC\LinearDlg.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Player\Movement.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Inventory\ItemHander.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Inventory\Inventory.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Inventory\ItemData.cs" />
+    <Compile Include="Assets\Scripts\Common\MenuHandler.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Inventory\Item.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Inventory\LinearChest.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\Art\Enemies\Bases\GoblinSlingshot\Shader\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
