@@ -44,7 +44,7 @@ public class Interact : MonoBehaviour
                 {
                     //Debug that we Hit a Item
                     Debug.Log("Item");
-                    ItemHander handler = hitInfo.transform.GetComponent<ItemHander>();
+                    ItemHandler handler = hitInfo.transform.GetComponent<ItemHandler>();
                     if (handler!=null)
                     {
                         handler.OnCollection();

@@ -56,36 +56,61 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Scene 2\Inventory\LinearChest.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Player Scripts\CharrCust\Attributes.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Player Scripts\CharrCust\Stats.cs" />
     <Compile Include="Assets\Scripts\Scene 0\SpinnyHeads.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Inventory\Item.cs" />
     <Compile Include="Assets\Scripts\Scene 1\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Scene 0\LoadingScene.cs" />
+    <Compile Include="Assets\Scripts\Common\MenuHandler.cs" />
+    <Compile Include="Assets\Scripts\CharactorCust\CustomisationSet.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Enermy\WolfAI.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Player\Movement.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Player\Interact.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Saves\PlayerData.cs" />
+    <Compile Include="Assets\Scripts\CharactorCust\Audio.cs" />
+    <Compile Include="Assets\Scripts\CharactorCust\BackButtonToMainMenu.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Inventory\Inventory.cs" />
+    <Compile Include="Assets\Scripts\CharactorCust\CustomistionGet.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Enermy\GradientHealth.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\NPC\LinearDlg.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Enermy\AngryKevinWayPoints.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Player Hud\Compass.cs" />
     <Compile Include="Assets\Scripts\Common\KeyBindManager.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Saves\SaveAndLoad.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Inventory\ItemHander.cs" />
     <Compile Include="Assets\Scripts\Scene 1\StayingAlive.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Player\PlayerHandler.cs" />
-    <Compile Include="Assets\Scripts\Scene 2\Player Scripts\CharrCust\UICustChar.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Inventory\ItemData.cs" />
+    <Compile Include="Assets\Scripts\CharactorCust\UICustChar.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Player\MouseLook.cs" />
     <Compile Include="Assets\Scripts\Scene 2\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Saves\PlayerBinary.cs" />
-    <Compile Include="Assets\Scripts\Scene 2\NPC\LinearDlg.cs" />
-    <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Player\Movement.cs" />
-    <Compile Include="Assets\Scripts\Scene 2\Inventory\ItemHander.cs" />
-    <Compile Include="Assets\Scripts\Scene 2\Inventory\Inventory.cs" />
-    <Compile Include="Assets\Scripts\Scene 2\Inventory\ItemData.cs" />
-    <Compile Include="Assets\Scripts\Common\MenuHandler.cs" />
-    <Compile Include="Assets\Scripts\Scene 2\Inventory\Item.cs" />
-    <Compile Include="Assets\Scripts\Scene 2\Inventory\LinearChest.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\Art\Enemies\Bases\GoblinSlingshot\Shader\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

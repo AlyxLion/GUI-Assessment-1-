@@ -166,18 +166,22 @@ public class MainMenu : MonoBehaviour
     }
     public void LoadGameButton()
     {
-        SorryL.text = " Sorry about this but you cant Load a game as you have no saves";
-        Invoke("TextUpdateLoad", 10f);
+        //load game scene
+        SceneManager.LoadScene(2);
+        //SorryL.text = " Sorry about this but you cant Load a game as you have no saves";
+        //Invoke("TextUpdateLoad", 10f);
+
         buttonMusic();
     }
-    void TextUpdateLoad()
+    /*void TextUpdateLoad()
     {
         SorryL.text = "   ";
-    }
+    }*/
 
     public void NewGameButton()
     {
-        SceneManager.LoadScene(2);
+        //will take to the charactorCust scene
+        SceneManager.LoadScene(3);
         buttonMusic();
     }
     void TextUpdateNew()

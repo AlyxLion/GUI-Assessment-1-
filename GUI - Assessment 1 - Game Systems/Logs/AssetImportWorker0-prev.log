@@ -15,11 +15,11 @@ C:/Users/LionA/Desktop/Unity Projects/GitHubProjects/tafe/GUI-Assessment-1-/GUI 
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63588
+50168
 Successfully changed project path to: C:/Users/LionA/Desktop/Unity Projects/GitHubProjects/tafe/GUI-Assessment-1-/GUI - Assessment 1 - Game Systems
 C:/Users/LionA/Desktop/Unity Projects/GitHubProjects/tafe/GUI-Assessment-1-/GUI - Assessment 1 - Game Systems
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 18.81 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 26.92 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,31 +35,31 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001906 seconds.
+Registered in 0.083967 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 19.59 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 19.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.710 seconds
+- Completed reload, in  2.679 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000478 seconds.
+Registered in 0.035950 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.534 seconds
+- Completed reload, in  1.324 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -77,45 +77,2466 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1119 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.9 MB.
-System memory in use after: 71.9 MB.
+Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.4 MB.
+System memory in use after: 75.4 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1580.
-Total: 1.875600 ms (FindLiveObjects: 0.206400 ms CreateObjectMapping: 0.039100 ms MarkObjects: 1.518700 ms  DeleteObjects: 0.110500 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1607.
+Total: 2.044800 ms (FindLiveObjects: 0.183500 ms CreateObjectMapping: 0.035200 ms MarkObjects: 1.691400 ms  DeleteObjects: 0.133400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Animator
-  artifactKey: Guid(558a7394e5f897d4985a8b88f0b5168c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animator using Guid(558a7394e5f897d4985a8b88f0b5168c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98e2eb246c9b17604780238adfb03d2') in 0.007283 seconds
+  path: Assets/Warrior.FBX
+  artifactKey: Guid(8a2f6ef7f5089df4aa1457d0446f210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior.FBX using Guid(8a2f6ef7f5089df4aa1457d0446f210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ac1ba6f314df317728b7599aed79c1') in 0.177067 seconds
+  Import took 0.179276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/WarriorBabe.png
+  artifactKey: Guid(04341f249ba1a534c9bd4be89e0747a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarriorBabe.png using Guid(04341f249ba1a534c9bd4be89e0747a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21917283517b33a212ef4eff242c27b4') in 0.035505 seconds
+  Import took 0.037501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.966229 seconds.
+  path: Assets/Character
+  artifactKey: Guid(345fa1cbcc882a947ba63a9c3ca8e9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character using Guid(345fa1cbcc882a947ba63a9c3ca8e9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585cbe1d3cfd2c1126704e66e15931cc') in 0.008704 seconds
+  Import took 0.010701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044638 seconds.
+  path: Assets/Character/Armour_0.png
+  artifactKey: Guid(216101f63d9663b49867f38ee3406a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Armour_0.png using Guid(216101f63d9663b49867f38ee3406a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3d8e59697ce58321e953a5b3c35870') in 0.015795 seconds
+  Import took 0.017971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Character/Clothes_8.png
+  artifactKey: Guid(7ad16ea924663344dad7e69fe66f353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Clothes_8.png using Guid(7ad16ea924663344dad7e69fe66f353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8893d174579aa9db1083230f8f833df') in 0.012179 seconds
+  Import took 0.013803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Character/Armour_8.png
+  artifactKey: Guid(b1aa965983d046a49b34063618c4649b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Armour_8.png using Guid(b1aa965983d046a49b34063618c4649b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95daeabcf1f39a69f733258509f86868') in 0.013316 seconds
+  Import took 0.014935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Character/Clothes_9.png
+  artifactKey: Guid(2a92720334e215344899e56eb48a9ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Clothes_9.png using Guid(2a92720334e215344899e56eb48a9ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33f9d8bed06514fbcd5802925e9ec6b') in 0.016217 seconds
+  Import took 0.018173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Character/Hair_1.png
+  artifactKey: Guid(56d2fe8bbfa3e7d4f8bd8495d51f1486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Hair_1.png using Guid(56d2fe8bbfa3e7d4f8bd8495d51f1486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133c3913f98781ed54f39da1dc85595a') in 0.012003 seconds
+  Import took 0.013841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Character/Skin_1.png
+  artifactKey: Guid(bda71b6f7148150419128c47ecedd095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Skin_1.png using Guid(bda71b6f7148150419128c47ecedd095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0794e83947d7bc6938ce84b9efb65c') in 0.011508 seconds
+  Import took 0.013029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Character/Armour_6.png
+  artifactKey: Guid(5117f1a05a3e3b442bfdd7c7c78fd0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Armour_6.png using Guid(5117f1a05a3e3b442bfdd7c7c78fd0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354fe6d8802305f6d82a2f6d051d545c') in 0.011643 seconds
+  Import took 0.013242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Character/Hair_3.png
+  artifactKey: Guid(c98a980c8c957b94cbb77374302c0bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Hair_3.png using Guid(c98a980c8c957b94cbb77374302c0bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6001f40becb23d1656a9dd03423d2b39') in 0.010002 seconds
+  Import took 0.011655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Character/Clothes_0.png
+  artifactKey: Guid(b456c274aa786c9458782f5512f1b5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Clothes_0.png using Guid(b456c274aa786c9458782f5512f1b5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb529bbf2f092ec54b99ecca97d0a549') in 0.014856 seconds
+  Import took 0.016553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Character/Armour_1.png
+  artifactKey: Guid(0d8b871e4dbc4c043b15a6bec73d5711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Armour_1.png using Guid(0d8b871e4dbc4c043b15a6bec73d5711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61ea2e56ce77eaeda002cba49fb30bb') in 0.014220 seconds
+  Import took 0.015518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Character/Hair_2.png
+  artifactKey: Guid(e4632a7eae7271b4498f0346c2cf485f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Hair_2.png using Guid(e4632a7eae7271b4498f0346c2cf485f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49be42f5b84be3f1c332d03521e44f9') in 0.010505 seconds
+  Import took 0.011815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Character/Clothes_7.png
+  artifactKey: Guid(1e2b7170973d11440a8ca617987c2c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Clothes_7.png using Guid(1e2b7170973d11440a8ca617987c2c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387a04d7415d0be7bfc654b50df9e651') in 0.008979 seconds
+  Import took 0.010356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Character/Clothes_2.png
+  artifactKey: Guid(33576f265f1c88440b4bd6dec8b993ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Clothes_2.png using Guid(33576f265f1c88440b4bd6dec8b993ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c779d1ef06a0a9fc3ab627dffc27db') in 0.010047 seconds
+  Import took 0.011740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Character/Clothes_4.png
+  artifactKey: Guid(288c6eb2c940a9a4480373f2fb994c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Clothes_4.png using Guid(288c6eb2c940a9a4480373f2fb994c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903ecc25210f8d30e6bfa721b6653fd2') in 0.008680 seconds
+  Import took 0.010254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Character/Clothes_5.png
+  artifactKey: Guid(f241c77551a16754f922c5caa5ee63c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Clothes_5.png using Guid(f241c77551a16754f922c5caa5ee63c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbf0206fa0592fe933881ed9d58a8bf') in 0.007557 seconds
+  Import took 0.008789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Character/Mouth_0.png
+  artifactKey: Guid(57cba9cb2e30bf3439c851e6800e731c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Mouth_0.png using Guid(57cba9cb2e30bf3439c851e6800e731c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a0e99c6558c38655603f6eb0bc3652') in 0.008383 seconds
+  Import took 0.009594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Character/Mouth_1.png
+  artifactKey: Guid(83fe67f6a24e851439e38a5052c21172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Mouth_1.png using Guid(83fe67f6a24e851439e38a5052c21172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30fcdecb0a7088419e4aa726e6f7bbd8') in 0.007961 seconds
+  Import took 0.009124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Character/Hair_4.png
+  artifactKey: Guid(49c5a6b36f51f8f429a66d62b31c275f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Hair_4.png using Guid(49c5a6b36f51f8f429a66d62b31c275f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3c3eaaa0eaa7d970dbe40006a8bb45') in 0.008863 seconds
+  Import took 0.010304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Character/Mouth_2.png
+  artifactKey: Guid(7f57ae3d4dbcf594780539d1374be57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Mouth_2.png using Guid(7f57ae3d4dbcf594780539d1374be57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c56bee0bd6327db0f39c7d357ece7e') in 0.007865 seconds
+  Import took 0.009183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Character/Armour_7.png
+  artifactKey: Guid(e6730408017e9784883b1f789fd1253a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Armour_7.png using Guid(e6730408017e9784883b1f789fd1253a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5767e9b60779b365b510c85c0e5da125') in 0.008543 seconds
+  Import took 0.009946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Character/Eyes_2.png
+  artifactKey: Guid(413866cf9831b2647a2c4f62f0ae0132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Eyes_2.png using Guid(413866cf9831b2647a2c4f62f0ae0132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19389b481ad40a3aab860a894b975c62') in 0.009416 seconds
+  Import took 0.010621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Character/Clothes_1.png
+  artifactKey: Guid(c5313ae480fb17d41a7f09e45ca500fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Clothes_1.png using Guid(c5313ae480fb17d41a7f09e45ca500fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8325817a4f45330d6bfa4af8e6c52d7') in 0.009036 seconds
+  Import took 0.010399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Character/Eyes_1.png
+  artifactKey: Guid(c1b34b29446a37240a150fc8da3a8a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Eyes_1.png using Guid(c1b34b29446a37240a150fc8da3a8a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbfc746d99ccb7dc7ad3779cef77960') in 0.007563 seconds
+  Import took 0.009130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Character/Skin_3.png
+  artifactKey: Guid(b90bf87462a721f4daf7ebd00c5d86e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Skin_3.png using Guid(b90bf87462a721f4daf7ebd00c5d86e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f0022016fb2d6483612d43383266c4') in 0.010146 seconds
+  Import took 0.011625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Character/Clothes_10.png
+  artifactKey: Guid(a2391107e08d5994f916b06327326881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Clothes_10.png using Guid(a2391107e08d5994f916b06327326881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718346abc38108836bcd84c9560ad03d') in 0.008917 seconds
+  Import took 0.010374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Character/Armour_9.png
+  artifactKey: Guid(7818bd1d3128ea64e9fa06dc966c708d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Armour_9.png using Guid(7818bd1d3128ea64e9fa06dc966c708d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a9e78bc25fc4957af772947014b8ee') in 0.009434 seconds
+  Import took 0.010974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Character/Eyes_0.png
+  artifactKey: Guid(84d8531e2bc67004993bc1757d560b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Eyes_0.png using Guid(84d8531e2bc67004993bc1757d560b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1869f57839fa891da245f79ef2317aca') in 0.008313 seconds
+  Import took 0.009814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Character/Armour_4.png
+  artifactKey: Guid(6a1712c9ae848604497608b6081acb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Armour_4.png using Guid(6a1712c9ae848604497608b6081acb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa7c494f6a8fb1c7200824acbcd7c9f') in 0.009195 seconds
+  Import took 0.010700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Character/Clothes_3.png
+  artifactKey: Guid(6fe6f610d4ad89543a4ff49ab7e640d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Clothes_3.png using Guid(6fe6f610d4ad89543a4ff49ab7e640d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a173ffc38d25b7a5ec62d08ef426229f') in 0.010312 seconds
+  Import took 0.012066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Character/Eyes_3.png
+  artifactKey: Guid(e11d6b23c6ee3b84baec9716b48f7bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Eyes_3.png using Guid(e11d6b23c6ee3b84baec9716b48f7bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6986932c603380a18349784bd22b7129') in 0.008841 seconds
+  Import took 0.010627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Character/Skin_0.png
+  artifactKey: Guid(d2dbbc3e270fdc143bf62c333f3e6c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Skin_0.png using Guid(d2dbbc3e270fdc143bf62c333f3e6c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062917b93053a061ca806c13ff001f67') in 0.008609 seconds
+  Import took 0.010171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Character/Armour_2.png
+  artifactKey: Guid(fbdcdb8426b70d746b0f898cd1532847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Armour_2.png using Guid(fbdcdb8426b70d746b0f898cd1532847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532207e848068114cdc2b07bf80323d6') in 0.009035 seconds
+  Import took 0.010456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Character/Hair_0.png
+  artifactKey: Guid(6eafdfc390ed7724f89ce374f1f26df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Hair_0.png using Guid(6eafdfc390ed7724f89ce374f1f26df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9244e55ae51c82d80622c15cf165062') in 0.008798 seconds
+  Import took 0.010445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Character/Skin_2.png
+  artifactKey: Guid(bb0805c701df5744d91ae2c63ac26da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Skin_2.png using Guid(bb0805c701df5744d91ae2c63ac26da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae04cde4f2f0fd94f96cc6de8855169') in 0.008261 seconds
+  Import took 0.009873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Character/Clothes_6.png
+  artifactKey: Guid(56f6512df1eb4ae42b2f5c3fff939a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Clothes_6.png using Guid(56f6512df1eb4ae42b2f5c3fff939a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0b78b8c28cc7618a8d991c8b1c098f') in 0.009190 seconds
+  Import took 0.010772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Character/Armour_5.png
+  artifactKey: Guid(04d9d7eaa76b6814cbd0fc5208308c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Armour_5.png using Guid(04d9d7eaa76b6814cbd0fc5208308c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6497369dee938bbbd4dc0b1504576b0a') in 0.009883 seconds
+  Import took 0.011734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Character/Armour_3.png
+  artifactKey: Guid(e435022c41fa0304d81ac58b5038cc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Armour_3.png using Guid(e435022c41fa0304d81ac58b5038cc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ef42aa41a9cec2da69cad6efb0902f') in 0.009585 seconds
+  Import took 0.011132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Character/Armour_10.png
+  artifactKey: Guid(51aed9afc3a172142bcb717348026b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Armour_10.png using Guid(51aed9afc3a172142bcb717348026b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c3cba3b3da845d355aba10c6378f7f') in 0.009085 seconds
+  Import took 0.010743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.269347 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(1ca4867fafc0ff741aea045090a0d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(1ca4867fafc0ff741aea045090a0d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4874141d80f7e2643f706627735d868') in 0.007120 seconds
+  Import took 0.009011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.608213 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(1ca4867fafc0ff741aea045090a0d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(1ca4867fafc0ff741aea045090a0d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd688707a7b1b400f0283e9371bd81b') in 0.007386 seconds
+  Import took 0.009225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.417622 seconds.
+  path: Assets/Warrior.FBX
+  artifactKey: Guid(8a2f6ef7f5089df4aa1457d0446f210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior.FBX using Guid(8a2f6ef7f5089df4aa1457d0446f210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479f624e5cb4e9b6a7e6d6113833472a') in 0.083886 seconds
+  Import took 0.086237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 453.526906 seconds.
+  path: Assets/Warrior.FBX
+  artifactKey: Guid(8a2f6ef7f5089df4aa1457d0446f210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior.FBX using Guid(8a2f6ef7f5089df4aa1457d0446f210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f91915f864f82b4755bf743a31ffae') in 0.069142 seconds
+  Import took 0.071565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.433492 seconds.
+  path: Assets/Warrior.FBX
+  artifactKey: Guid(8a2f6ef7f5089df4aa1457d0446f210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior.FBX using Guid(8a2f6ef7f5089df4aa1457d0446f210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c507dbe9fa9c65f68fbdba181f1e01') in 0.048337 seconds
+  Import took 0.050591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 290.674399 seconds.
+  path: Assets/Warrior.FBX
+  artifactKey: Guid(8a2f6ef7f5089df4aa1457d0446f210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior.FBX using Guid(8a2f6ef7f5089df4aa1457d0446f210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2085ebdc446f8911f68fc388995699de') in 0.046601 seconds
+  Import took 0.048877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.644041 seconds.
+  path: Assets/Warrior.FBX
+  artifactKey: Guid(8a2f6ef7f5089df4aa1457d0446f210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior.FBX using Guid(8a2f6ef7f5089df4aa1457d0446f210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fcf1038b7660080a671472d1d90510c') in 0.041973 seconds
+  Import took 0.043985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.016100 seconds.
+  path: Assets/Warrior.FBX
+  artifactKey: Guid(8a2f6ef7f5089df4aa1457d0446f210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior.FBX using Guid(8a2f6ef7f5089df4aa1457d0446f210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4465c25f81efc8274bc69bf70de6d693') in 0.042389 seconds
+  Import took 0.044933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.326863 seconds.
+  path: Assets/Warrior.prefab
+  artifactKey: Guid(51a36778ba4da4d47a83c7609ef7514d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior.prefab using Guid(51a36778ba4da4d47a83c7609ef7514d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c04211f09d992f417ffa860f45b331c') in 0.016329 seconds
+  Import took 0.018546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.020053 seconds.
+  path: Assets/Warrior.prefab
+  artifactKey: Guid(51a36778ba4da4d47a83c7609ef7514d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior.prefab using Guid(51a36778ba4da4d47a83c7609ef7514d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0133b22824895a8a0383824186d2e643') in 0.013715 seconds
+  Import took 0.015985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.071126 seconds.
+  path: Assets/Warrior.prefab
+  artifactKey: Guid(51a36778ba4da4d47a83c7609ef7514d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior.prefab using Guid(51a36778ba4da4d47a83c7609ef7514d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923b25027d614f73d24feecaef746f37') in 0.012049 seconds
+  Import took 0.014181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 251.503338 seconds.
+  path: Assets/Warrior.FBX
+  artifactKey: Guid(8a2f6ef7f5089df4aa1457d0446f210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior.FBX using Guid(8a2f6ef7f5089df4aa1457d0446f210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff226d74bb9f758af52158f8a0f1993') in 0.067076 seconds
+  Import took 0.069326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.556866 seconds.
+  path: Assets/Warrior.FBX
+  artifactKey: Guid(8a2f6ef7f5089df4aa1457d0446f210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior.FBX using Guid(8a2f6ef7f5089df4aa1457d0446f210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e6442afa4d1233c34b8a71991082a3') in 0.073512 seconds
+  Import took 0.075943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.050179 seconds.
+  path: Assets/Warrior.FBX
+  artifactKey: Guid(8a2f6ef7f5089df4aa1457d0446f210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior.FBX using Guid(8a2f6ef7f5089df4aa1457d0446f210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2ba6e72e5a7faf73b85de76f6f3bb2') in 0.071148 seconds
+  Import took 0.073276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.438724 seconds.
+  path: Assets/Resources/Character/Armour_0.png
+  artifactKey: Guid(216101f63d9663b49867f38ee3406a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Armour_0.png using Guid(216101f63d9663b49867f38ee3406a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c249e2f0c58f7b335356e1fb247e8188') in 0.037777 seconds
+  Import took 0.040099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Resources/Character/Clothes_8.png
+  artifactKey: Guid(7ad16ea924663344dad7e69fe66f353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Clothes_8.png using Guid(7ad16ea924663344dad7e69fe66f353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e453be2d2bd4ae5b304212fa911febf1') in 0.009149 seconds
+  Import took 0.011053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Resources/Character/Armour_8.png
+  artifactKey: Guid(b1aa965983d046a49b34063618c4649b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Armour_8.png using Guid(b1aa965983d046a49b34063618c4649b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655684265f1418fe634d83b0738534bd') in 0.008215 seconds
+  Import took 0.009501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Resources/Character/Clothes_9.png
+  artifactKey: Guid(2a92720334e215344899e56eb48a9ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Clothes_9.png using Guid(2a92720334e215344899e56eb48a9ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918cb2faccf78b2241f3929be6a831e1') in 0.011036 seconds
+  Import took 0.012740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Resources/Character/Hair_1.png
+  artifactKey: Guid(56d2fe8bbfa3e7d4f8bd8495d51f1486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Hair_1.png using Guid(56d2fe8bbfa3e7d4f8bd8495d51f1486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b54f1a0e062d0ab123327ba6b8eb0dc') in 0.011832 seconds
+  Import took 0.013183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Resources/Character/Skin_1.png
+  artifactKey: Guid(bda71b6f7148150419128c47ecedd095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Skin_1.png using Guid(bda71b6f7148150419128c47ecedd095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84673f8c587e2146e9bb8aac180be8f') in 0.015930 seconds
+  Import took 0.017704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Resources/Character/Armour_6.png
+  artifactKey: Guid(5117f1a05a3e3b442bfdd7c7c78fd0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Armour_6.png using Guid(5117f1a05a3e3b442bfdd7c7c78fd0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1e8646a2f7b24e578c57fd1e467e12') in 0.009778 seconds
+  Import took 0.011008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Resources/Character/Hair_3.png
+  artifactKey: Guid(c98a980c8c957b94cbb77374302c0bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Hair_3.png using Guid(c98a980c8c957b94cbb77374302c0bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e18e1a38833eb25ed8d51eb27ce1f87') in 0.009536 seconds
+  Import took 0.010795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Resources/Character/Clothes_0.png
+  artifactKey: Guid(b456c274aa786c9458782f5512f1b5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Clothes_0.png using Guid(b456c274aa786c9458782f5512f1b5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8975ba0051765f99ed90e27916e2ff2a') in 0.019533 seconds
+  Import took 0.021121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Resources/Character/Armour_1.png
+  artifactKey: Guid(0d8b871e4dbc4c043b15a6bec73d5711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Armour_1.png using Guid(0d8b871e4dbc4c043b15a6bec73d5711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f342a48c35ac1aa40256703b66ecd4') in 0.011849 seconds
+  Import took 0.013743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Resources/Character/Hair_2.png
+  artifactKey: Guid(e4632a7eae7271b4498f0346c2cf485f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Hair_2.png using Guid(e4632a7eae7271b4498f0346c2cf485f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158b9a74d323cc12c7d877a13ab3f8e1') in 0.013105 seconds
+  Import took 0.014861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Resources/Character/Clothes_7.png
+  artifactKey: Guid(1e2b7170973d11440a8ca617987c2c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Clothes_7.png using Guid(1e2b7170973d11440a8ca617987c2c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9aeff8d228fe6ff5e01c928551a90e') in 0.009065 seconds
+  Import took 0.010825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Resources/Character/Clothes_2.png
+  artifactKey: Guid(33576f265f1c88440b4bd6dec8b993ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Clothes_2.png using Guid(33576f265f1c88440b4bd6dec8b993ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211eabed0ae19533e259d3f505aa9439') in 0.015456 seconds
+  Import took 0.017234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Resources/Character/Clothes_4.png
+  artifactKey: Guid(288c6eb2c940a9a4480373f2fb994c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Clothes_4.png using Guid(288c6eb2c940a9a4480373f2fb994c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86632d2536f07ae9bc192b15f80401b') in 0.010453 seconds
+  Import took 0.012187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Resources/Character/Clothes_5.png
+  artifactKey: Guid(f241c77551a16754f922c5caa5ee63c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Clothes_5.png using Guid(f241c77551a16754f922c5caa5ee63c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c39aaad4a2cffedca7b7b73a904cfe7') in 0.012246 seconds
+  Import took 0.013820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Resources/Character/Mouth_0.png
+  artifactKey: Guid(57cba9cb2e30bf3439c851e6800e731c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Mouth_0.png using Guid(57cba9cb2e30bf3439c851e6800e731c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c5e907f3a42b926451b941bdd7d8a7') in 0.008176 seconds
+  Import took 0.009759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Resources/Character/Mouth_1.png
+  artifactKey: Guid(83fe67f6a24e851439e38a5052c21172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Mouth_1.png using Guid(83fe67f6a24e851439e38a5052c21172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d7c0606d50195b271f49056addb709') in 0.016316 seconds
+  Import took 0.018107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Resources/Character/Hair_4.png
+  artifactKey: Guid(49c5a6b36f51f8f429a66d62b31c275f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Hair_4.png using Guid(49c5a6b36f51f8f429a66d62b31c275f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0766366b6bbf98725e6683ce72afe2') in 0.011241 seconds
+  Import took 0.012949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Resources/Character/Mouth_2.png
+  artifactKey: Guid(7f57ae3d4dbcf594780539d1374be57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Mouth_2.png using Guid(7f57ae3d4dbcf594780539d1374be57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c89a11f6c5a4273227f94d4fd42ce5') in 0.011113 seconds
+  Import took 0.012470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Resources/Character/Armour_7.png
+  artifactKey: Guid(e6730408017e9784883b1f789fd1253a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Armour_7.png using Guid(e6730408017e9784883b1f789fd1253a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158755a56d59d36a4f4b64156ab40c02') in 0.011841 seconds
+  Import took 0.013747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Resources/Character/Eyes_2.png
+  artifactKey: Guid(413866cf9831b2647a2c4f62f0ae0132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Eyes_2.png using Guid(413866cf9831b2647a2c4f62f0ae0132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d0a8aeaf45ad3ffaa5ceb1f66a8980') in 0.009931 seconds
+  Import took 0.011550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Resources/Character/Clothes_1.png
+  artifactKey: Guid(c5313ae480fb17d41a7f09e45ca500fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Clothes_1.png using Guid(c5313ae480fb17d41a7f09e45ca500fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602f69413d0ac78970a2fa5c348f8e5f') in 0.021453 seconds
+  Import took 0.023406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Resources/Character/Eyes_1.png
+  artifactKey: Guid(c1b34b29446a37240a150fc8da3a8a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Eyes_1.png using Guid(c1b34b29446a37240a150fc8da3a8a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05a2b2d80dba884b46ce569c59b5aa4') in 0.010772 seconds
+  Import took 0.012366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Resources/Character/Skin_3.png
+  artifactKey: Guid(b90bf87462a721f4daf7ebd00c5d86e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Skin_3.png using Guid(b90bf87462a721f4daf7ebd00c5d86e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e72cc1f7219ee239ebfd0e6351633e') in 0.012461 seconds
+  Import took 0.014194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Resources/Character/Clothes_10.png
+  artifactKey: Guid(a2391107e08d5994f916b06327326881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Clothes_10.png using Guid(a2391107e08d5994f916b06327326881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23034e2e8a04bf766360ff03e2ee9ec6') in 0.007366 seconds
   Import took 0.008982 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 174.751098 seconds.
-  path: Assets/Scripts/Scene 2/Player Scripts/Player/MouseLook.cs
-  artifactKey: Guid(706cc88708f72224e8dde8018109e8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Scene 2/Player Scripts/Player/MouseLook.cs using Guid(706cc88708f72224e8dde8018109e8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb480db5a27776a064ee89510aa6e2cc') in 0.021819 seconds
-  Import took 0.023803 seconds .
+  Time since last request: 0.000143 seconds.
+  path: Assets/Resources/Character/Armour_9.png
+  artifactKey: Guid(7818bd1d3128ea64e9fa06dc966c708d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Armour_9.png using Guid(7818bd1d3128ea64e9fa06dc966c708d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508521c6297f5278c2bdfde9d35d1cff') in 0.008904 seconds
+  Import took 0.010880 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 854.276250 seconds.
-  path: Assets/Scripts/Scene 2/Player Scripts/Player Hud/Compass.cs
-  artifactKey: Guid(b4110c2cd0d191b46a938c86d388b45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Scene 2/Player Scripts/Player Hud/Compass.cs using Guid(b4110c2cd0d191b46a938c86d388b45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e17760b95734513f611cee9cadd1d04') in 0.007212 seconds
-  Import took 0.009477 seconds .
+  Time since last request: 0.000157 seconds.
+  path: Assets/Resources/Character/Eyes_0.png
+  artifactKey: Guid(84d8531e2bc67004993bc1757d560b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Eyes_0.png using Guid(84d8531e2bc67004993bc1757d560b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f322e9add864fedbd2da25e7f1dde079') in 0.009402 seconds
+  Import took 0.011488 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 674.597023 seconds.
-  path: Assets/Scripts/Scene 2/Player Scripts/Player/Interact.cs
-  artifactKey: Guid(64b78ccc5c37d6640a75d29487f2dccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Scene 2/Player Scripts/Player/Interact.cs using Guid(64b78ccc5c37d6640a75d29487f2dccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3431360ae46d237146d9a858e8f06d77') in 0.007284 seconds
-  Import took 0.009651 seconds .
+  Time since last request: 0.000162 seconds.
+  path: Assets/Resources/Character/Armour_4.png
+  artifactKey: Guid(6a1712c9ae848604497608b6081acb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Armour_4.png using Guid(6a1712c9ae848604497608b6081acb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4dd80860be1ab5e8ee7f4ce801a6c2') in 0.008834 seconds
+  Import took 0.010440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Resources/Character/Clothes_3.png
+  artifactKey: Guid(6fe6f610d4ad89543a4ff49ab7e640d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Clothes_3.png using Guid(6fe6f610d4ad89543a4ff49ab7e640d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5d01099883b32fe5c1a78bcedab312') in 0.008336 seconds
+  Import took 0.009756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Resources/Character/Eyes_3.png
+  artifactKey: Guid(e11d6b23c6ee3b84baec9716b48f7bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Eyes_3.png using Guid(e11d6b23c6ee3b84baec9716b48f7bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1920fafffc1a89bcaca7b18c89d0c0') in 0.007873 seconds
+  Import took 0.009709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Resources/Character/Skin_0.png
+  artifactKey: Guid(d2dbbc3e270fdc143bf62c333f3e6c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Skin_0.png using Guid(d2dbbc3e270fdc143bf62c333f3e6c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3208f6b0d54fbf4c374b60d1a3b3b9') in 0.008501 seconds
+  Import took 0.010326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Resources/Character/Armour_2.png
+  artifactKey: Guid(fbdcdb8426b70d746b0f898cd1532847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Armour_2.png using Guid(fbdcdb8426b70d746b0f898cd1532847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aec7969554e4c7cfd0159e7d2063ef7') in 0.009425 seconds
+  Import took 0.011050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Resources/Character/Hair_0.png
+  artifactKey: Guid(6eafdfc390ed7724f89ce374f1f26df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Hair_0.png using Guid(6eafdfc390ed7724f89ce374f1f26df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8207da86b0ad0e0330b68312d0b879c4') in 0.009002 seconds
+  Import took 0.010828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Resources/Character/Skin_2.png
+  artifactKey: Guid(bb0805c701df5744d91ae2c63ac26da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Skin_2.png using Guid(bb0805c701df5744d91ae2c63ac26da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fedea0023b0fcdd52cc7bad89d26b13') in 0.009072 seconds
+  Import took 0.010691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Resources/Character/Clothes_6.png
+  artifactKey: Guid(56f6512df1eb4ae42b2f5c3fff939a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Clothes_6.png using Guid(56f6512df1eb4ae42b2f5c3fff939a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8ef8ce8ae9aba0f63957c1af5bfe70') in 0.008290 seconds
+  Import took 0.010197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Resources/Character/Armour_5.png
+  artifactKey: Guid(04d9d7eaa76b6814cbd0fc5208308c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Armour_5.png using Guid(04d9d7eaa76b6814cbd0fc5208308c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6716d9a383c7da19dda5c8eaefe48221') in 0.009577 seconds
+  Import took 0.011064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Resources/Character/Armour_3.png
+  artifactKey: Guid(e435022c41fa0304d81ac58b5038cc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Armour_3.png using Guid(e435022c41fa0304d81ac58b5038cc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf72abb340817e9e0487c00bec42c9d7') in 0.009100 seconds
+  Import took 0.010692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Resources/Character/Armour_10.png
+  artifactKey: Guid(51aed9afc3a172142bcb717348026b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Armour_10.png using Guid(51aed9afc3a172142bcb717348026b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192c845891bf6801e7616108deaa7887') in 0.009793 seconds
+  Import took 0.011307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.143523 seconds.
+  path: Assets/Mats
+  artifactKey: Guid(2a4e639a42e4bbf4baf769bd4c392274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mats using Guid(2a4e639a42e4bbf4baf769bd4c392274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9f8a6dac114cd2601094a1dcca3071') in 0.008431 seconds
+  Import took 0.010773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Mats
+  artifactKey: Guid(2a4e639a42e4bbf4baf769bd4c392274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mats using Guid(2a4e639a42e4bbf4baf769bd4c392274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9f8a6dac114cd2601094a1dcca3071') in 0.003076 seconds
+  Import took 0.005023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.301463 seconds.
+  path: Assets/Mats/Skin.mat
+  artifactKey: Guid(4c09d377a9ff154468f1b085e638bfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mats/Skin.mat using Guid(4c09d377a9ff154468f1b085e638bfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f01a4ca662a92201055f9bb9fb35fba') in 0.018242 seconds
+  Import took 0.020483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.088916 seconds.
+  path: Assets/Mats/Eyes.mat
+  artifactKey: Guid(9b4f48126b4d99e4bb2ff3bebd68fccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mats/Eyes.mat using Guid(9b4f48126b4d99e4bb2ff3bebd68fccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc1d9a5e34f0486d159bd31d043d57e') in 0.011569 seconds
+  Import took 0.013762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.477234 seconds.
+  path: Assets/Mats/Hair.mat
+  artifactKey: Guid(dc3e16187eaf98946acf0491cbf1fa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mats/Hair.mat using Guid(dc3e16187eaf98946acf0491cbf1fa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8806fc13a1f084dccf80f3dffe62a53d') in 0.010261 seconds
+  Import took 0.012343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.810021 seconds.
+  path: Assets/Mats/Mouth.mat
+  artifactKey: Guid(73be1617924efea4c9aa1265b474f1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mats/Mouth.mat using Guid(73be1617924efea4c9aa1265b474f1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152ece9404d8e1e06e1a37476a7a12d8') in 0.010731 seconds
+  Import took 0.012787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.363725 seconds.
+  path: Assets/Mats/Clothes.mat
+  artifactKey: Guid(8d623681d3259c34fa51e91453e388e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mats/Clothes.mat using Guid(8d623681d3259c34fa51e91453e388e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7493fba503ae6d4ef35788ea61dd8132') in 0.011721 seconds
+  Import took 0.013619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 184.405821 seconds.
+  path: Assets/Enviroment/Textures/cliff_d1.png
+  artifactKey: Guid(d54a5f88d10d77f4687857de47a91176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/Textures/cliff_d1.png using Guid(d54a5f88d10d77f4687857de47a91176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a636b636e99d6219d7a138b808260e8') in 0.017883 seconds
+  Import took 0.019886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.121706 seconds.
+  path: Assets/Enviroment/Textures/bush_d1.tif
+  artifactKey: Guid(d6ad995804a80f04c866c2343bc0721d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/Textures/bush_d1.tif using Guid(d6ad995804a80f04c866c2343bc0721d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732b3a3cc50cd51cf8f10f99f1c5a8e1') in 0.018093 seconds
+  Import took 0.020099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.237829 seconds.
+  path: Assets/Warrior.prefab
+  artifactKey: Guid(51a36778ba4da4d47a83c7609ef7514d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior.prefab using Guid(51a36778ba4da4d47a83c7609ef7514d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f8769b09a08724431109231bb4544b') in 0.014608 seconds
+  Import took 0.016805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Warrior.prefab
+  artifactKey: Guid(51a36778ba4da4d47a83c7609ef7514d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior.prefab using Guid(51a36778ba4da4d47a83c7609ef7514d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f8769b09a08724431109231bb4544b') in 0.010190 seconds
+  Import took 0.012126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.904300 seconds.
+  path: Assets/PreFabs
+  artifactKey: Guid(309f2173393f19545ab9e0b0f59cc37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PreFabs using Guid(309f2173393f19545ab9e0b0f59cc37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0b6e40b7a502a5039dc5e5a0d255ab') in 0.008209 seconds
+  Import took 0.010187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003379 seconds.
+  path: Assets/PreFabs
+  artifactKey: Guid(309f2173393f19545ab9e0b0f59cc37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PreFabs using Guid(309f2173393f19545ab9e0b0f59cc37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0b6e40b7a502a5039dc5e5a0d255ab') in 0.003029 seconds
+  Import took 0.004618 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000467 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.500 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 90.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1654.
+Total: 1.947600 ms (FindLiveObjects: 0.162500 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.662300 ms  DeleteObjects: 0.086800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000487 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.492 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 90.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1656.
+Total: 1.644100 ms (FindLiveObjects: 0.144900 ms CreateObjectMapping: 0.032900 ms MarkObjects: 1.383600 ms  DeleteObjects: 0.081900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000578 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.510 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1658.
+Total: 1.551900 ms (FindLiveObjects: 0.125800 ms CreateObjectMapping: 0.033400 ms MarkObjects: 1.313900 ms  DeleteObjects: 0.078000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2720.863833 seconds.
+  path: Assets/Warrior.FBX
+  artifactKey: Guid(8a2f6ef7f5089df4aa1457d0446f210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior.FBX using Guid(8a2f6ef7f5089df4aa1457d0446f210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46f497f2f2dc4f50bea1495abcab9ea') in 0.098586 seconds
+  Import took 0.100848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 192.165527 seconds.
+  path: Assets/CharacterCust
+  artifactKey: Guid(a873649639a69fe4caea3b9325fd92f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterCust using Guid(a873649639a69fe4caea3b9325fd92f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38009ab833f1924f004c9e90154792db') in 0.007882 seconds
+  Import took 0.009691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.902536 seconds.
+  path: Assets/Warrior.prefab
+  artifactKey: Guid(d74e844be21248d4e94e881df5b0df05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior.prefab using Guid(d74e844be21248d4e94e881df5b0df05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58acff836aa7f5fd6bac761c25a398c2') in 0.038640 seconds
+  Import took 0.040908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.326907 seconds.
+  path: Assets/PreFabs/Warrior first.prefab
+  artifactKey: Guid(51a36778ba4da4d47a83c7609ef7514d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PreFabs/Warrior first.prefab using Guid(51a36778ba4da4d47a83c7609ef7514d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b9f8eaecf230299c47112bd9303572') in 0.021635 seconds
+  Import took 0.023964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.619160 seconds.
+  path: Assets/Scripts/Cust Scene/CharacterCust
+  artifactKey: Guid(aaf6e57460bbcfb4e9cedb1147aba494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cust Scene/CharacterCust using Guid(aaf6e57460bbcfb4e9cedb1147aba494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8941c543f2bc38bdc56621bf050c12c8') in 0.003782 seconds
+  Import took 0.005675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.424219 seconds.
+  path: Assets/Scripts/CharactorCust
+  artifactKey: Guid(6cbb43a9fd188694893b8efd01413610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CharactorCust using Guid(6cbb43a9fd188694893b8efd01413610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21467f3e69a332d18603049111e5e4d8') in 0.007899 seconds
+  Import took 0.010144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.362589 seconds.
+  path: Assets/Scripts/CharactorCust/CharacterCust/UICustChar.cs
+  artifactKey: Guid(b5916baadc8a95740811906bbd99b901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CharactorCust/CharacterCust/UICustChar.cs using Guid(b5916baadc8a95740811906bbd99b901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13cea56f1f5cee078c77fedafded66db') in 0.011058 seconds
+  Import took 0.013200 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000532 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.533 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1661.
+Total: 2.067200 ms (FindLiveObjects: 0.198900 ms CreateObjectMapping: 0.044900 ms MarkObjects: 1.731500 ms  DeleteObjects: 0.090600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000526 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.517 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1663.
+Total: 1.680900 ms (FindLiveObjects: 0.192200 ms CreateObjectMapping: 0.030600 ms MarkObjects: 1.370800 ms  DeleteObjects: 0.086400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000539 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.499 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1665.
+Total: 1.715200 ms (FindLiveObjects: 0.161500 ms CreateObjectMapping: 0.031600 ms MarkObjects: 1.433400 ms  DeleteObjects: 0.087900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000683 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.513 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1667.
+Total: 1.912800 ms (FindLiveObjects: 0.194600 ms CreateObjectMapping: 0.036500 ms MarkObjects: 1.579400 ms  DeleteObjects: 0.101500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 477.705649 seconds.
+  path: Assets/Scenes/GameScean
+  artifactKey: Guid(83c485caaa0dd684f9eafd6ae5aca725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScean using Guid(83c485caaa0dd684f9eafd6ae5aca725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5f4f92d58e6317572341b579b67a93') in 0.008803 seconds
+  Import took 0.010811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Scenes/GameScean
+  artifactKey: Guid(83c485caaa0dd684f9eafd6ae5aca725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScean using Guid(83c485caaa0dd684f9eafd6ae5aca725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5f4f92d58e6317572341b579b67a93') in 0.002393 seconds
+  Import took 0.004301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051348 seconds.
+  path: Assets/Scenes/GameScean/NavMesh.asset
+  artifactKey: Guid(d69e4e30b58379447831d68e7df6c4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScean/NavMesh.asset using Guid(d69e4e30b58379447831d68e7df6c4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f9879758617fd9dbc9ee8f818226fe') in 0.023669 seconds
+  Import took 0.025797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.372065 seconds.
+  path: Assets/Scenes/pre fab/Player.prefab
+  artifactKey: Guid(d6d34606285286a49b6139e981d6d564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/pre fab/Player.prefab using Guid(d6d34606285286a49b6139e981d6d564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f02959b31226ba792149494a700c90') in 0.051638 seconds
+  Import took 0.053742 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000495 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.519 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1671.
+Total: 1.805900 ms (FindLiveObjects: 0.180400 ms CreateObjectMapping: 0.044600 ms MarkObjects: 1.471100 ms  DeleteObjects: 0.108300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000560 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.520 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1673.
+Total: 1.779800 ms (FindLiveObjects: 0.168100 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.487500 ms  DeleteObjects: 0.090900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000575 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.494 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1675.
+Total: 1.869900 ms (FindLiveObjects: 0.163200 ms CreateObjectMapping: 0.029900 ms MarkObjects: 1.591100 ms  DeleteObjects: 0.084800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000562 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.501 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1677.
+Total: 1.695900 ms (FindLiveObjects: 0.170400 ms CreateObjectMapping: 0.033200 ms MarkObjects: 1.401400 ms  DeleteObjects: 0.090200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000509 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.512 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1679.
+Total: 1.599300 ms (FindLiveObjects: 0.166400 ms CreateObjectMapping: 0.026500 ms MarkObjects: 1.315800 ms  DeleteObjects: 0.089600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000546 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.495 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1681.
+Total: 1.787100 ms (FindLiveObjects: 0.190300 ms CreateObjectMapping: 0.034900 ms MarkObjects: 1.430500 ms  DeleteObjects: 0.130600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000943 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.582 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1683.
+Total: 2.042900 ms (FindLiveObjects: 0.254300 ms CreateObjectMapping: 0.038100 ms MarkObjects: 1.645100 ms  DeleteObjects: 0.104600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000827 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.596 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1685.
+Total: 1.710400 ms (FindLiveObjects: 0.189100 ms CreateObjectMapping: 0.032200 ms MarkObjects: 1.395300 ms  DeleteObjects: 0.093100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000562 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.542 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1687.
+Total: 1.833200 ms (FindLiveObjects: 0.192800 ms CreateObjectMapping: 0.040400 ms MarkObjects: 1.491600 ms  DeleteObjects: 0.107500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000651 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.495 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1689.
+Total: 1.759900 ms (FindLiveObjects: 0.153300 ms CreateObjectMapping: 0.025500 ms MarkObjects: 1.477600 ms  DeleteObjects: 0.102800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000512 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.526 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1691.
+Total: 1.937900 ms (FindLiveObjects: 0.177100 ms CreateObjectMapping: 0.035300 ms MarkObjects: 1.613800 ms  DeleteObjects: 0.110800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000622 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.490 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1693.
+Total: 1.853600 ms (FindLiveObjects: 0.252500 ms CreateObjectMapping: 0.094300 ms MarkObjects: 1.415500 ms  DeleteObjects: 0.090500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000621 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.507 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1695.
+Total: 1.937500 ms (FindLiveObjects: 0.221000 ms CreateObjectMapping: 0.031500 ms MarkObjects: 1.583900 ms  DeleteObjects: 0.099900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000574 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.520 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1697.
+Total: 1.847400 ms (FindLiveObjects: 0.259400 ms CreateObjectMapping: 0.059000 ms MarkObjects: 1.427800 ms  DeleteObjects: 0.100400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000584 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.548 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1699.
+Total: 2.236200 ms (FindLiveObjects: 0.169200 ms CreateObjectMapping: 0.028600 ms MarkObjects: 1.948000 ms  DeleteObjects: 0.089400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000585 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.519 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1701.
+Total: 1.692300 ms (FindLiveObjects: 0.144100 ms CreateObjectMapping: 0.029300 ms MarkObjects: 1.423400 ms  DeleteObjects: 0.094400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000620 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.496 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1703.
+Total: 1.688500 ms (FindLiveObjects: 0.144100 ms CreateObjectMapping: 0.027600 ms MarkObjects: 1.435500 ms  DeleteObjects: 0.080600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000644 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.518 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1705.
+Total: 1.725700 ms (FindLiveObjects: 0.180200 ms CreateObjectMapping: 0.035400 ms MarkObjects: 1.427100 ms  DeleteObjects: 0.082400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000880 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.523 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1707.
+Total: 1.712700 ms (FindLiveObjects: 0.205100 ms CreateObjectMapping: 0.039200 ms MarkObjects: 1.374600 ms  DeleteObjects: 0.093100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000641 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.500 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1709.
+Total: 1.600700 ms (FindLiveObjects: 0.184500 ms CreateObjectMapping: 0.025100 ms MarkObjects: 1.304500 ms  DeleteObjects: 0.085800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000548 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.506 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1711.
+Total: 2.258800 ms (FindLiveObjects: 0.183400 ms CreateObjectMapping: 0.032700 ms MarkObjects: 1.922900 ms  DeleteObjects: 0.118700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000528 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.479 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1713.
+Total: 1.727000 ms (FindLiveObjects: 0.154200 ms CreateObjectMapping: 0.034600 ms MarkObjects: 1.453500 ms  DeleteObjects: 0.083800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000576 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.522 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1715.
+Total: 1.801800 ms (FindLiveObjects: 0.162800 ms CreateObjectMapping: 0.034800 ms MarkObjects: 1.516500 ms  DeleteObjects: 0.086200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000535 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.499 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1717.
+Total: 1.830900 ms (FindLiveObjects: 0.225900 ms CreateObjectMapping: 0.094900 ms MarkObjects: 1.424800 ms  DeleteObjects: 0.084200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000754 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.494 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1719.
+Total: 1.898700 ms (FindLiveObjects: 0.219400 ms CreateObjectMapping: 0.043700 ms MarkObjects: 1.536700 ms  DeleteObjects: 0.097600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000770 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.542 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1721.
+Total: 1.901800 ms (FindLiveObjects: 0.200700 ms CreateObjectMapping: 0.026300 ms MarkObjects: 1.579800 ms  DeleteObjects: 0.093600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000609 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.517 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1723.
+Total: 1.877900 ms (FindLiveObjects: 0.188500 ms CreateObjectMapping: 0.030600 ms MarkObjects: 1.563900 ms  DeleteObjects: 0.094000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000602 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.502 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1725.
+Total: 1.864700 ms (FindLiveObjects: 0.280800 ms CreateObjectMapping: 0.027000 ms MarkObjects: 1.459100 ms  DeleteObjects: 0.096900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000518 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.507 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1727.
+Total: 2.364700 ms (FindLiveObjects: 0.188200 ms CreateObjectMapping: 0.038500 ms MarkObjects: 2.038500 ms  DeleteObjects: 0.098500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000680 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.502 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1729.
+Total: 1.577700 ms (FindLiveObjects: 0.160700 ms CreateObjectMapping: 0.035300 ms MarkObjects: 1.298300 ms  DeleteObjects: 0.082300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000819 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.595 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1731.
+Total: 1.892600 ms (FindLiveObjects: 0.199000 ms CreateObjectMapping: 0.025700 ms MarkObjects: 1.552500 ms  DeleteObjects: 0.114500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000557 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.516 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1733.
+Total: 1.878600 ms (FindLiveObjects: 0.155500 ms CreateObjectMapping: 0.031300 ms MarkObjects: 1.604700 ms  DeleteObjects: 0.085900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000566 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.498 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1735.
+Total: 1.598800 ms (FindLiveObjects: 0.178000 ms CreateObjectMapping: 0.034200 ms MarkObjects: 1.304300 ms  DeleteObjects: 0.081300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000581 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.509 seconds
+Platform modules already initialized, skipping
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1737.
+Total: 1.829300 ms (FindLiveObjects: 0.162800 ms CreateObjectMapping: 0.036700 ms MarkObjects: 1.537000 ms  DeleteObjects: 0.091800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

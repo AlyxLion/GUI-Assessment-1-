@@ -1,4 +1,5 @@
 using System;
+using UnityEngine;
 
 public class Stats : Attributes
 {
@@ -25,6 +26,7 @@ public class Stats : Attributes
     #region Variables
     public StatBlock[] characterStats = new StatBlock[6];
     public CharacterClass characterClass = CharacterClass.Barbarian;
+    [HideInInspector]
     public CharacterRace characterRace = CharacterRace.Human;
     #endregion
 
@@ -33,16 +35,16 @@ public enum CharacterClass
 {
     Barbarian,
     Bard,
-    Cleric,
+    //Cleric,
     Druid,
-    Fighter,
+    //Fighter,
     Monk,
     Paladin,
     Ranger,
-    Rogue,
+    //Rogue,
     Sorcerer,
     Warlock,
-    Wizard
+   // Wizard
 }
 public enum CharacterRace
 {

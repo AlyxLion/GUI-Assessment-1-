@@ -206,7 +206,7 @@ public class Inventory : MonoBehaviour
         //name
         GUI.Box(new Rect(4f * MenuHandler.screen.x, 0.25f * MenuHandler.screen.y, 3 * MenuHandler.screen.x, 0.25f * MenuHandler.screen.y), selectedItem.Name);
         //icon
-        GUI.Box(new Rect(4f * MenuHandler.screen.x, 0.5f * MenuHandler.screen.y, 3 * MenuHandler.screen.x, 3 * MenuHandler.screen.y), selectedItem.IconName);
+        //GUI.Box(new Rect(4f * MenuHandler.screen.x, 0.5f * MenuHandler.screen.y, 3 * MenuHandler.screen.x, 3 * MenuHandler.screen.y), selectedItem.IconName);
         //discrption, amount, value
         GUI.Box(new Rect(4f * MenuHandler.screen.x, 3.5f * MenuHandler.screen.y, 3 * MenuHandler.screen.x, 0.75f * MenuHandler.screen.y), selectedItem.Description +"\nAmount: "+selectedItem.Amount+"\nValue: $"+selectedItem.Value);
         //switch via type
@@ -230,7 +230,7 @@ public class Inventory : MonoBehaviour
                         }
                         equippedItemSlot[1].equippedItem = Instantiate(selectedItem.MeshName, equippedItemSlot[1].equippedLocation);
                         equippedItemSlot[1].equippedItem.name = selectedItem.Name;
-                        equippedItemSlot[1].equippedItem.GetComponent<ItemHander>().enabled = false;
+                        equippedItemSlot[1].equippedItem.GetComponent<ItemHandler>().enabled = false;
                     }
                 }
                 else
@@ -255,7 +255,7 @@ public class Inventory : MonoBehaviour
                     //money the thing
                 }
                 break;
-            case ItemTypes.Quest:
+            case ItemTypes.Craftable:;
                 if (GUI.Button(new Rect(4f * MenuHandler.screen.x, 4.25f * MenuHandler.screen.y, 1.5f * MenuHandler.screen.x, 0.25f * MenuHandler.screen.y), "Wear"))
                 {
                     //ware the thing
@@ -267,24 +267,13 @@ public class Inventory : MonoBehaviour
                     //ware the thing
                 }
                 break;
-            case ItemTypes.Ingredients:
-                if (GUI.Button(new Rect(4f * MenuHandler.screen.x, 4.25f * MenuHandler.screen.y, 1.5f * MenuHandler.screen.x, 0.25f * MenuHandler.screen.y), "Wear"))
-                {
-                    //ware the thing
-                }
-                break;
-            case ItemTypes.Craftable:
-                if (GUI.Button(new Rect(4f * MenuHandler.screen.x, 4.25f * MenuHandler.screen.y, 1.5f * MenuHandler.screen.x, 0.25f * MenuHandler.screen.y), "Wear"))
-                {
-                    //ware the thing
-                }
-                break;
             case ItemTypes.Misc:
                 if (GUI.Button(new Rect(4f * MenuHandler.screen.x, 4.25f * MenuHandler.screen.y, 1.5f * MenuHandler.screen.x, 0.25f * MenuHandler.screen.y), "Wear"))
                 {
                     //ware the thing
                 }
                 break;
+            
 
         }
         if (GUI.Button(new Rect(5.5f * MenuHandler.screen.x, 4.25f * MenuHandler.screen.y, 1.5f * MenuHandler.screen.x, 0.25f * MenuHandler.screen.y),"Discard"))

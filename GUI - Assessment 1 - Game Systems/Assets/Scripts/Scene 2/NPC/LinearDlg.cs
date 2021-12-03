@@ -20,7 +20,7 @@ public class LinearDlg : MonoBehaviour
     public Text _dlgText;
     #endregion
     #region OnGUI
-    private void OnGUI()
+    /*private void OnGUI()
     {
         //if our dialogue can be seen on screen
         if (showDlg)
@@ -54,6 +54,6 @@ public class LinearDlg : MonoBehaviour
 
             }
         }
-    }
+    }*/
     #endregion
 }

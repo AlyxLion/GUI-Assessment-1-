@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Music
   - Clicked
+  - Checkpoint
+  - CharacterMesh
   layers:
   - Default
   - TransparentFX
