@@ -42,7 +42,7 @@ public class Inventory : MonoBehaviour
             
         }
 #endif
-        if (Input.GetKeyDown(MenuHandler.inputKeys["Inventory"]) && !PauseMenu.isPaused)
+        if (Input.GetKeyDown(KeyBindManager.inputKeys["Inventory"]) && !PauseMenu.isPaused)
         {
             showInv = !showInv;
             if  (showInv)

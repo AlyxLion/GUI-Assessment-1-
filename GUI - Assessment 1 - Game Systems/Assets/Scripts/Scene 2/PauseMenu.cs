@@ -15,7 +15,9 @@ public class PauseMenu : MonoBehaviour
 
     public static bool isPaused;
         public GameObject _PauseMenu;
-        public static bool _IsOptions;
+    public GameObject HUDEmpty;
+    public static bool HUDStat;
+    public static bool _IsOptions;
         public static bool _DisplayOptions;
         public static bool _Audio;
         public static bool _KeyBindings;
@@ -35,6 +37,8 @@ public class PauseMenu : MonoBehaviour
             UnPaused();
             isPaused = false;
             _PauseMenu.gameObject.SetActive(false);
+        HUDEmpty.gameObject.SetActive(true);
+        HUDStat = true;
 
             OptionsImg.gameObject.SetActive(false);
             OptionsEmpty.gameObject.SetActive(false);
@@ -137,8 +141,9 @@ public class PauseMenu : MonoBehaviour
 
     public void Paused()//When oaysed us triggered
         {
-            //stop out time
-            Time.timeScale = 0;
+        HUDStat = false;
+        //stop out time
+        Time.timeScale = 0;
             // free out coursor
             Cursor.lockState = CursorLockMode.Confined;
             //see out coursor
@@ -155,10 +160,10 @@ public class PauseMenu : MonoBehaviour
     }
     public void UnPaused()
         {
-            //unoayse out game 
-
-            //start time
-            Time.timeScale = 1;
+        //unoayse out game 
+        HUDStat = true;
+        //start time
+        Time.timeScale = 1;
             //lock out corsor
             Cursor.lockState = CursorLockMode.Locked;
             //hide our cursor 
@@ -306,6 +311,15 @@ public class PauseMenu : MonoBehaviour
         {
             KeyBindEpmty.gameObject.SetActive(false);
 
+        }
+
+        if (HUDStat == true)
+        {
+            HUDEmpty.gameObject.SetActive(true);
+        }
+        if ( HUDStat == false)
+        {
+            HUDEmpty.gameObject.SetActive(false);
         }
     }
 }
