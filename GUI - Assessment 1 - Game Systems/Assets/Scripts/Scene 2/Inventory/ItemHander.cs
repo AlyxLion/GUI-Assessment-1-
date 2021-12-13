@@ -13,7 +13,7 @@ public class ItemHandler : MonoBehaviour
         {
             Inventory.money += amount;
         }
-        else if (itemTypes == ItemTypes.Potion || itemTypes == ItemTypes.Craftable || itemTypes == ItemTypes.Food || itemTypes == ItemTypes.Ingredient || itemTypes == ItemTypes.Scroll)//are we stackable
+        else if (itemTypes == ItemTypes.Potion || itemTypes == ItemTypes.Scroll || itemTypes == ItemTypes.Food || itemTypes == ItemTypes.Ingredient || itemTypes == ItemTypes.Material)//are we stackable?
         {
             //do we have the item
             int found = 0;

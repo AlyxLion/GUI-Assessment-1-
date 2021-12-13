@@ -1,39 +1,39 @@
 using UnityEngine;
-
 public class Item
 {
     #region Variables
-    // Item ID - for developers and programmers
+    //ID
     private int _id;
-    // Display name
+    //Name
     private string _name;
-    // Display Description
+    //Description
     private string _description;
-    // Amount - Stackability
+    //Amount
     private int _amount;
-    // Price - Value
+    //Value
     private int _value;
-    // Display Icon
-    private Sprite _icon;
-    // Mesh
-    private GameObject _mesh;
-    // Type
-    private ItemTypes _type;
-    // Basic Example Stats
-    private int _heal;
-    private int _armour;
+    //Stats
     private int _damage;
+    private int _armour;
+    private int _heal;
+    //Icon
+    private Sprite _icon;
+    //Mesh
+    private GameObject _mesh;
+    //Type
+    private ItemTypes _type;
     #endregion
-    #region Properties
+    #region Properties 
+    //Encapsulation 
     public int ID
     {
-        get { return _id; }
-        set { _id = value; } // you can add behaviour/other calculations in these two lines eg. discounts in a shop
+        get { return _id; }//read or see what _id is storing
+        set { _id = value; }//Set or change _id to the value we pass through
     }
     public string Name
     {
-        get { return _name; }
-        set { _name = value; }
+        get { return _name; }//read or see what _name is storing
+        set { _name = value; }//Set or change _name to the value we pass through
     }
     public string Description
     {
@@ -50,14 +50,13 @@ public class Item
         get { return _value; }
         set { _value = value; }
     }
-    public Sprite IconName
+    public Sprite Icon
     {
         get { return _icon; }
         set { _icon = value; }
     }
-    public GameObject MeshName
+    public GameObject Mesh
     {
-
         get { return _mesh; }
         set { _mesh = value; }
     }
@@ -65,11 +64,6 @@ public class Item
     {
         get { return _type; }
         set { _type = value; }
-    }
-    public int Heal
-    {
-        get { return _heal; }
-        set { _heal = value; }
     }
     public int Armour
     {
@@ -81,18 +75,23 @@ public class Item
         get { return _damage; }
         set { _damage = value; }
     }
+    public int Heal
+    {
+        get { return _heal; }
+        set { _heal = value; }
+    }
     #endregion
 }
-
 public enum ItemTypes
 {
     Armour,
+    Trinket,
     Weapon,
     Potion,
-    Money,
     Scroll,
     Food,
     Ingredient,
-    Craftable,
+    Material,
+    Money,
     Misc
 }

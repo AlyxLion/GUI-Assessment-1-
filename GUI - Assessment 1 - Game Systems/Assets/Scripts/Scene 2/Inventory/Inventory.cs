@@ -11,7 +11,7 @@ public class Inventory : MonoBehaviour
     public Item selectedItem;
     public static int money;
     public Vector2 scrollPos;
-    public string[] typeNames = new string[9] { "All", "Armour", "Weapon", "Potion", "Food", "Ingredient", "Craftable", "Quest", "Misc"};
+    public string[] typeNames = new string[10] { "All", "Armour","Trinket", "Weapon", "Potion", "Food", "Ingredient", "Craftable", "Quest", "Misc"};
     public string sortType ="All";
     public Transform dropLocation;
     [System.Serializable]
@@ -228,7 +228,7 @@ public class Inventory : MonoBehaviour
                         {
                             Destroy(equippedItemSlot[1].equippedItem);
                         }
-                        equippedItemSlot[1].equippedItem = Instantiate(selectedItem.MeshName, equippedItemSlot[1].equippedLocation);
+                        equippedItemSlot[1].equippedItem = Instantiate(selectedItem.Mesh, equippedItemSlot[1].equippedLocation);
                         equippedItemSlot[1].equippedItem.name = selectedItem.Name;
                         equippedItemSlot[1].equippedItem.GetComponent<ItemHandler>().enabled = false;
                     }
@@ -255,7 +255,7 @@ public class Inventory : MonoBehaviour
                     //money the thing
                 }
                 break;
-            case ItemTypes.Craftable:;
+            case ItemTypes.Trinket:;
                 if (GUI.Button(new Rect(4f * MenuHandler.screen.x, 4.25f * MenuHandler.screen.y, 1.5f * MenuHandler.screen.x, 0.25f * MenuHandler.screen.y), "Wear"))
                 {
                     //ware the thing
@@ -287,7 +287,7 @@ public class Inventory : MonoBehaviour
                 }
             }
             //spawn item at droploaction
-            GameObject itemToDrop = Instantiate(selectedItem.MeshName, dropLocation.position, Quaternion.identity);
+            GameObject itemToDrop = Instantiate(selectedItem.Mesh, dropLocation.position, Quaternion.identity);
             //apply gravity and make sure its named correctly
             itemToDrop.name = selectedItem.Name;
             itemToDrop.AddComponent<Rigidbody>().useGravity = true;

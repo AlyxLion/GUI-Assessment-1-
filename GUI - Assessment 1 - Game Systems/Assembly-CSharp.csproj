@@ -87,6 +87,10 @@
     <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Player\MouseLook.cs" />
     <Compile Include="Assets\Scripts\Scene 2\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Saves\PlayerBinary.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Inventory\ButtonListControl.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Inventory\ButtonListButton.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Inventory\InventoryButton.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Inventory\InventroyControls.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

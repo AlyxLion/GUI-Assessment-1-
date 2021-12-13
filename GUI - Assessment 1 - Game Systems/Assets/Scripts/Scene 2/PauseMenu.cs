@@ -14,7 +14,9 @@ public class PauseMenu : MonoBehaviour
     public GameObject buttonSounds;
 
     public static bool isPaused;
-        public GameObject _PauseMenu;
+    public GameObject _Inventory;
+    public static bool showInv;
+    public GameObject _PauseMenu;
     public GameObject HUDEmpty;
     public static bool HUDStat;
     public static bool _IsOptions;
@@ -37,8 +39,12 @@ public class PauseMenu : MonoBehaviour
             UnPaused();
             isPaused = false;
             _PauseMenu.gameObject.SetActive(false);
-        HUDEmpty.gameObject.SetActive(true);
-        HUDStat = true;
+
+            _Inventory.gameObject.SetActive(false);
+        showInv = false;
+
+            HUDEmpty.gameObject.SetActive(true);
+            HUDStat = true;
 
             OptionsImg.gameObject.SetActive(false);
             OptionsEmpty.gameObject.SetActive(false);
@@ -245,16 +251,45 @@ public class PauseMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-            if (Input.GetKeyDown(KeyCode.Escape))
+        
+
+        if (Input.GetKeyDown(KeyBindManager.inputKeys["Inventory"]) && !PauseMenu.isPaused)
+        {
+            if (showInv == false)
             {
+                
+                showInv = true;
+                _Inventory.gameObject.SetActive(true);
+            }
 
 
-                if (isPaused == false)
-                {
-                    Paused();
-                    isPaused = true;
-                }
+            if (!showInv == true)
+            {
+                
+                showInv = false;
+                _Inventory.gameObject.SetActive(false);
+            }
+        }
+        if (showInv == true)
+        {
+            _Inventory.gameObject.SetActive(true);
+        }
+        if (showInv == false)
+        {
+            _Inventory.gameObject.SetActive(false);
 
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+
+
+            if (isPaused == false)
+            {
+                Paused();
+                isPaused = true;
+                showInv = false;
+            }
 
                 if (!isPaused == true)
                 {
@@ -264,7 +299,7 @@ public class PauseMenu : MonoBehaviour
                 }
 
 
-            }
+        }
         #region OptionsMenu
         //options menu if statment for the manin to options
         if (_IsOptions == true)
