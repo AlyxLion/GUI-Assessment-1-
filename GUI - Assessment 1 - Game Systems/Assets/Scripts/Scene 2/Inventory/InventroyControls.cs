@@ -14,18 +14,33 @@ public class InventroyControls : MonoBehaviour
     private GridLayoutGroup gridGroup;
     public Item selectedItem;
     public string[] typeNames = new string[10] { "All", "Armour", "Trinket", "Weapon", "Potion", "Scroll", "Food", "Ingredient", "Material", "Misc" };
-
+    public static int money;
     //private Sprite[] iconSprites;
 
     [SerializeField]
     private ButtonListControl _sortType;
-    private ItemData itemData;
+    //private ItemData itemData;
 
     private void Start()
     {
         //playerInventory = new List<PlayerItem>();
-        inv = new List<Item>();
-        ItemTypes type = (ItemTypes)System.Enum.Parse(typeof(ItemTypes), _sortType.sortType);
+
+        for (int i = 0; i < 64; i++)
+        {
+            //ItemData.CreateItem() newItem = new ();
+
+            //Item icon = new Item();
+            // icon.Icon = icon[];
+            //ItemData newItem = new ItemData();
+            //Item ItemData.CreateItem = new Icon();
+            //_icon.Icon = _icon[ItemData.CreateItem(Random.Range(0, 703)];
+            inv.Add(ItemData.CreateItem(Random.Range(0, 703)));
+        }
+
+        
+        
+        
+        /*ItemTypes type = (ItemTypes)System.Enum.Parse(typeof(ItemTypes), _sortType.sortType);
         foreach (ItemTypes types_ in itemData.Item Item )
         {
             
@@ -33,33 +48,50 @@ public class InventroyControls : MonoBehaviour
             //newItem.iconSprite = iconSprites[Random.Range(0, iconSprites.Length)];
             newItem.Icon = Resources.Load("Icons/" + type.ToString()) as Sprite;
             inv.Add(newItem);
-        }
+        }*/
         
         
     }
 
     void GenInventory()
     {
+        /*foreach (ItemData CreateItem in inv)
+        {
+            GameObject newButton = Instantiate(buttonInvTemplate) as GameObject;
+            newButton.SetActive(true);
+
+            newButton.GetComponent<InventoryButton>().SetIcon(newItem.Icon);
+            newButton.transform.SetParent(buttonInvTemplate.transform.parent, false);
+        }*/
         //_sortType.sortType = _sortType.typeNames[10];
         if (!(_sortType.sortType == "All" || _sortType.sortType == ""))
         {
             ItemTypes type = (ItemTypes)System.Enum.Parse(typeof(ItemTypes), _sortType.sortType);
             //the amount of this type
-            //int a = 0;
+            int a = 0;
             //new slot position of the Item
-            //int s = 0;
+            int s = 0;
             //Find all items of type in our inv
             for (int i = 0; i < inv.Count; i++)
             {
                 //if current element matches type
-                if (inv[i].ItemType == type)
+                if (inv[i].ItemTypes == type)
                 {
-                    foreach (Item newItem in inv)
+                    a++;
+                    /*foreach (ItemData CreateItem in inv)
                     {
                         GameObject newButton = Instantiate(buttonInvTemplate) as GameObject;
                         newButton.SetActive(true);
 
                         newButton.GetComponent<InventoryButton>().SetIcon(newItem.Icon);
+                        newButton.transform.SetParent(buttonInvTemplate.transform.parent, false);
+                    }*/
+                    foreach (Item CreateItem in inv)
+                    {
+                        GameObject newButton = Instantiate(buttonInvTemplate) as GameObject;
+                        newButton.SetActive(true);
+
+                        newButton.GetComponent<InventoryButton>().SetIcon(inv.Icon);
                         newButton.transform.SetParent(buttonInvTemplate.transform.parent, false);
                     }
                 }

@@ -57,13 +57,14 @@ public class ButtonListControl : MonoBehaviour
         }
         for (int i = 0; i < typeNames.Length; i++)
         {
-            sortType = typeNames[i];
+            
             GameObject button = Instantiate(ButtonTemplate) as GameObject;
             button.SetActive(true);
 
             button.GetComponent<ButtonListButton>().SetText(" " + typeNames[i]);
 
             button.transform.SetParent(ButtonTemplate.transform.parent, false);
+            sortType = typeNames[i];
         }
     }
 }

@@ -101,7 +101,7 @@ public class Inventory : MonoBehaviour
             for (int i = 0; i < inv.Count; i++)
             {
                 //if current element matches type
-                if (inv[i].ItemType == type)
+                if (inv[i].ItemTypes == type)
                 {
                     //add to amount of this type
                     a++;
@@ -112,7 +112,7 @@ public class Inventory : MonoBehaviour
             {
                 for (int i = 0; i < inv.Count; i++)
                 {
-                    if (inv[i].ItemType == type)
+                    if (inv[i].ItemTypes == type)
                     {
                         if (GUI.Button(new Rect(MenuHandler.screen.x * 0.5f, 0.25f * MenuHandler.screen.y + s * (0.25f * MenuHandler.screen.y), MenuHandler.screen.x * 3, MenuHandler.screen.y * 0.25f), inv[i].Name))
                         {
@@ -141,7 +141,7 @@ public class Inventory : MonoBehaviour
 #region loop inside scroll space
                 for (int i = 0; i < inv.Count; i++)
                 {
-                    if (inv[i].ItemType == type)
+                    if (inv[i].ItemTypes == type)
                     {
                         if (GUI.Button(new Rect(MenuHandler.screen.x * 0.5f, s * (0.25f * MenuHandler.screen.y), MenuHandler.screen.x * 3, MenuHandler.screen.y * 0.25f), inv[i].Name))
                         {
@@ -210,7 +210,7 @@ public class Inventory : MonoBehaviour
         //discrption, amount, value
         GUI.Box(new Rect(4f * MenuHandler.screen.x, 3.5f * MenuHandler.screen.y, 3 * MenuHandler.screen.x, 0.75f * MenuHandler.screen.y), selectedItem.Description +"\nAmount: "+selectedItem.Amount+"\nValue: $"+selectedItem.Value);
         //switch via type
-        switch (selectedItem.ItemType)
+        switch (selectedItem.ItemTypes)
         {
             case ItemTypes.Armour:
                 if(GUI.Button(new Rect(4f * MenuHandler.screen.x, 4.25f * MenuHandler.screen.y, 1.5f * MenuHandler.screen.x, 0.25f * MenuHandler.screen.y), "Wear"))

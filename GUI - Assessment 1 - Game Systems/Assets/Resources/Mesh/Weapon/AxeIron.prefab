@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3324772251844886983
+--- !u!1 &5829535213658864609
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,45 +8,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1102224978645742190}
-  - component: {fileID: 3199332423141895758}
-  - component: {fileID: 2456109475074578923}
-  m_Layer: 6
-  m_Name: axe
+  - component: {fileID: 8838276166302846023}
+  - component: {fileID: 8219157824980596398}
+  - component: {fileID: 7700719068199858265}
+  - component: {fileID: 5711132104334981475}
+  m_Layer: 0
+  m_Name: AxeIron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1102224978645742190
+--- !u!4 &8838276166302846023
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3324772251844886983}
-  m_LocalRotation: {x: -0.10569466, y: -0.036418572, z: 0.7563709, w: -0.6445196}
-  m_LocalPosition: {x: -0.44981694, y: 0.4401582, z: -0.0326215}
-  m_LocalScale: {x: 0.0967328, y: 0.09673282, z: 0.096732855}
+  m_GameObject: {fileID: 5829535213658864609}
+  m_LocalRotation: {x: -0.10569464, y: -0.036418647, z: 0.75637084, w: -0.6445196}
+  m_LocalPosition: {x: 18.69, y: 0.687, z: 7.23}
+  m_LocalScale: {x: 0.09673284, y: 0.09673281, z: 0.096732825}
   m_Children: []
-  m_Father: {fileID: 2437738057100106789}
+  m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &3199332423141895758
+--- !u!33 &8219157824980596398
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3324772251844886983}
-  m_Mesh: {fileID: -8176984191909879101, guid: ec91d122f8ad274408411663a9b5d76c, type: 3}
---- !u!23 &2456109475074578923
+  m_GameObject: {fileID: 5829535213658864609}
+  m_Mesh: {fileID: -8176984191909879101, guid: 8a2f6ef7f5089df4aa1457d0446f210b, type: 3}
+--- !u!23 &7700719068199858265
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3324772251844886983}
+  m_GameObject: {fileID: 5829535213658864609}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -59,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 239378781582670930, guid: ec91d122f8ad274408411663a9b5d76c, type: 3}
+  - {fileID: 2100000, guid: f1c9c2596310427449fff752b1295768, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -81,34 +82,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &4795024438060418700
-GameObject:
+--- !u!114 &5711132104334981475
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2437738057100106789}
-  m_Layer: 0
-  m_Name: Axe
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2437738057100106789
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4795024438060418700}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1102224978645742190}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 5829535213658864609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f35eda8ec82e0014098b9abae0f254a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 201
+  itemTypes: 2
+  amount: 1

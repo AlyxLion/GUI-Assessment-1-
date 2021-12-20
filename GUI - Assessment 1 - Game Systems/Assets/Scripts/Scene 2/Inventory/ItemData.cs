@@ -977,7 +977,7 @@ public static class ItemData
             Heal = _heal,
             Icon = Resources.Load("Icons/" + _icon) as Sprite,
             Mesh = Resources.Load("Mesh/" + _mesh) as GameObject,
-            ItemType = _type
+            ItemTypes = _type
         };
         return temp;
     }

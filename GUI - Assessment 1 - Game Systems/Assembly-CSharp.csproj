@@ -56,8 +56,10 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Scene 2\Inventory\ButtonListButton.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Inventory\LinearChest.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Player Scripts\CharrCust\Attributes.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Inventory\ButtonListControl.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Player Scripts\CharrCust\Stats.cs" />
     <Compile Include="Assets\Scripts\Scene 0\SpinnyHeads.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Inventory\Item.cs" />
@@ -75,22 +77,20 @@
     <Compile Include="Assets\Scripts\CharactorCust\CustomistionGet.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Enermy\GradientHealth.cs" />
     <Compile Include="Assets\Scripts\Scene 2\NPC\LinearDlg.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Inventory\InventroyControls.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Enermy\AngryKevinWayPoints.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Player Hud\Compass.cs" />
     <Compile Include="Assets\Scripts\Common\KeyBindManager.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Saves\SaveAndLoad.cs" />
-    <Compile Include="Assets\Scripts\Scene 2\Inventory\ItemHander.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Inventory\ItemHandler.cs" />
     <Compile Include="Assets\Scripts\Scene 1\StayingAlive.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Player\PlayerHandler.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Inventory\ItemData.cs" />
     <Compile Include="Assets\Scripts\CharactorCust\UICustChar.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Player\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\Scene 2\Inventory\InventoryButton.cs" />
     <Compile Include="Assets\Scripts\Scene 2\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Scene 2\Player Scripts\Saves\PlayerBinary.cs" />
-    <Compile Include="Assets\Scripts\Scene 2\Inventory\ButtonListControl.cs" />
-    <Compile Include="Assets\Scripts\Scene 2\Inventory\ButtonListButton.cs" />
-    <Compile Include="Assets\Scripts\Scene 2\Inventory\InventoryButton.cs" />
-    <Compile Include="Assets\Scripts\Scene 2\Inventory\InventroyControls.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

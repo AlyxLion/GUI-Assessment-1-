@@ -60,7 +60,7 @@ public class Item
         get { return _mesh; }
         set { _mesh = value; }
     }
-    public ItemTypes ItemType
+    public ItemTypes ItemTypes
     {
         get { return _type; }
         set { _type = value; }
