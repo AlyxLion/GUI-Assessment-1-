@@ -7,10 +7,11 @@ public class ButtonListControl : MonoBehaviour
     [SerializeField]
     private GameObject ButtonTemplate;
 
-    [SerializeField]
+    
     public string[] typeNames = new string[10] { "All", "Armour", "Trinket", "Weapon", "Potion", "Food", "Ingredient", "Craftable", "Quest", "Misc" };
     
     public string sortType = "All";
+
     private List<GameObject> buttons;
 
     void Start()
@@ -40,7 +41,7 @@ public class ButtonListControl : MonoBehaviour
     public void ButtonClicked(string myTextString)
     {
         Debug.Log(myTextString);
-
+        //= sortType;
         
     }
     public void ListUpdate()
@@ -64,7 +65,7 @@ public class ButtonListControl : MonoBehaviour
             button.GetComponent<ButtonListButton>().SetText(" " + typeNames[i]);
 
             button.transform.SetParent(ButtonTemplate.transform.parent, false);
-            sortType = typeNames[i];
+            //sortType = typeNames[i];
         }
     }
 }

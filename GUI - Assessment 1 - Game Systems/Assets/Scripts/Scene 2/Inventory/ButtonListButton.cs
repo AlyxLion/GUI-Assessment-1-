@@ -21,5 +21,6 @@ public class ButtonListButton : MonoBehaviour
     public void Onclick()
     {
         buttonControl.ButtonClicked(myTextString);
+        Debug.Log(myTextString);
     }
 }

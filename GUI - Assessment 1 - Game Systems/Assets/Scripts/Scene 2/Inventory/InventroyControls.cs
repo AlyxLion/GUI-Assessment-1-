@@ -18,18 +18,20 @@ public class InventroyControls : MonoBehaviour
     //private Sprite[] iconSprites;
 
     [SerializeField]
-    private ButtonListControl _sortType;
+    public ButtonListControl _sortType;
+
     //private ItemData itemData;
 
     private void Start()
     {
         //playerInventory = new List<PlayerItem>();
 
-        for (int i = 0; i < 64; i++)
+        for (int i = 0; i < 10; i++)
         {
             //ItemData.CreateItem() newItem = new ();
 
-            //Item icon = new Item();
+            //Item newItem = new Item();
+            //newItem.Icon = Icon[Random.Range(0, Icon.Length)];
             // icon.Icon = icon[];
             //ItemData newItem = new ItemData();
             //Item ItemData.CreateItem = new Icon();
@@ -37,9 +39,9 @@ public class InventroyControls : MonoBehaviour
             inv.Add(ItemData.CreateItem(Random.Range(0, 703)));
         }
 
-        
-        
-        
+        GenInventory();
+
+
         /*ItemTypes type = (ItemTypes)System.Enum.Parse(typeof(ItemTypes), _sortType.sortType);
         foreach (ItemTypes types_ in itemData.Item Item )
         {
@@ -49,12 +51,20 @@ public class InventroyControls : MonoBehaviour
             newItem.Icon = Resources.Load("Icons/" + type.ToString()) as Sprite;
             inv.Add(newItem);
         }*/
-        
-        
+
+
     }
 
     void GenInventory()
     {
+        /*foreach (Item CreateItem in inv)
+        {
+            GameObject newButton = Instantiate(buttonInvTemplate) as GameObject;
+            newButton.SetActive(true);
+
+            newButton.GetComponent<InventoryButton>().SetIcon(CreateItem.Icon);
+            newButton.transform.SetParent(buttonInvTemplate.transform.parent, false);
+        }*/
         /*foreach (ItemData CreateItem in inv)
         {
             GameObject newButton = Instantiate(buttonInvTemplate) as GameObject;
@@ -68,16 +78,17 @@ public class InventroyControls : MonoBehaviour
         {
             ItemTypes type = (ItemTypes)System.Enum.Parse(typeof(ItemTypes), _sortType.sortType);
             //the amount of this type
-            int a = 0;
+            //int a = 0;
             //new slot position of the Item
-            int s = 0;
+            //int s = 0;
             //Find all items of type in our inv
             for (int i = 0; i < inv.Count; i++)
             {
                 //if current element matches type
                 if (inv[i].ItemTypes == type)
                 {
-                    a++;
+                    selectedItem = inv[i];
+                    // a++;
                     /*foreach (ItemData CreateItem in inv)
                     {
                         GameObject newButton = Instantiate(buttonInvTemplate) as GameObject;
@@ -86,16 +97,17 @@ public class InventroyControls : MonoBehaviour
                         newButton.GetComponent<InventoryButton>().SetIcon(newItem.Icon);
                         newButton.transform.SetParent(buttonInvTemplate.transform.parent, false);
                     }*/
-                    foreach (Item CreateItem in inv)
+                    foreach (Item selectedItem in inv)
                     {
                         GameObject newButton = Instantiate(buttonInvTemplate) as GameObject;
                         newButton.SetActive(true);
 
-                        newButton.GetComponent<InventoryButton>().SetIcon(inv.Icon);
+                        newButton.GetComponent<InventoryButton>().SetIcon(selectedItem.Icon);
                         newButton.transform.SetParent(buttonInvTemplate.transform.parent, false);
                     }
                 }
             }
+
             /*for (int i = 0; i < inv.Count; i++)
             {
                 if (inv[i].ItemType == type)
@@ -104,8 +116,9 @@ public class InventroyControls : MonoBehaviour
                 }
             }*/
 
-
-            
+            //maybe I have an update functin that cheacks what the type is and if else statements that call the function for that type and distroy items of other types when it is not within the type
+            // so a funtion for armor and wepons and in update its like if type == armor call armorType() fuck then what 
+            //grrr so anoyying 
         }
     }
     private void Update()
@@ -120,7 +133,7 @@ public class InventroyControls : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             //time paused
             Time.timeScale = 0;
-            GenInventory();
+            //GenInventory();
         }
 
         if (PauseMenu.showInv == false)
@@ -132,10 +145,12 @@ public class InventroyControls : MonoBehaviour
             //time is not pasued
             Time.timeScale = 1;
         }
-        
+        //_sortType.sortType = 
+       // _sortType.sortType = typeNames[;
+
     }
-    public class PlayerItem
+    /*public class PlayerItem
     {
-       // public Sprite iconSprite;
-    }
+       public Sprite iconSprite;
+    }*/
 }
