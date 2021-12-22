@@ -1604,7 +1604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myText: {fileID: 10870268}
-  buttonControl: {fileID: 0}
+  buttonControl: {fileID: 676727051}
   myTextString: 
 --- !u!1001 &357462629
 PrefabInstance:
@@ -3817,6 +3817,7 @@ MonoBehaviour:
   - Quest
   - Misc
   sortType: 
+  invCon: {fileID: 1915353848}
   sortTypeClick: 
 --- !u!1 &677796521
 GameObject:
@@ -11167,7 +11168,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonInvTemplate: {fileID: 1462578890}
   gridGroup: {fileID: 1027182825}
-  _sortType: {fileID: 0}
   currentType: 
 --- !u!114 &1915353849
 MonoBehaviour:

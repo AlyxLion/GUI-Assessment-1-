@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class InventroyControls : MonoBehaviour
 {
+    [SerializeField]
     public static List<Item> inv = new List<Item>();
     //private List<PlayerItem> playerInventory;
     
@@ -17,8 +18,8 @@ public class InventroyControls : MonoBehaviour
     public static int money;
     //private Sprite[] iconSprites;
 
-    [SerializeField]
-    public ButtonListControl _sortType;
+    //[SerializeField]
+    //public ButtonListControl _sortType;
 
     public string currentType;
 
@@ -40,9 +41,10 @@ public class InventroyControls : MonoBehaviour
             //Item ItemData.CreateItem = new Icon();
             //_icon.Icon = _icon[ItemData.CreateItem(Random.Range(0, 703)];
             inv.Add(ItemData.CreateItem(Random.Range(0, 703)));
+           
         }
 
-        GenInventory();
+        //GenInventory();
 
 
         /*ItemTypes type = (ItemTypes)System.Enum.Parse(typeof(ItemTypes), _sortType.sortType);
@@ -55,7 +57,7 @@ public class InventroyControls : MonoBehaviour
             inv.Add(newItem);
         }*/
 
-
+        InvItem();
     }
     //this calls the current string type from other parts.
     public void SortTypeClick(string sortTypeClick)
@@ -64,7 +66,19 @@ public class InventroyControls : MonoBehaviour
         currentType = sortTypeClick;
         Debug.Log("invCon " + sortTypeClick);
         //updates invtory based on what is selected
-        GenInventory();
+        //GenInventory();
+    }
+    public void InvItem()
+    {
+        foreach (Item ItemsInv in inv)
+        {
+            GameObject newButton = Instantiate(buttonInvTemplate) as GameObject;
+            newButton.SetActive(true);
+
+            newButton.GetComponent<InventoryButton>().SetIcon(ItemsInv.Icon);
+            newButton.transform.SetParent(buttonInvTemplate.transform.parent, false);
+            Debug.Log("for if invcount working");
+        }
     }
     void GenInventory()
     {
@@ -87,7 +101,10 @@ public class InventroyControls : MonoBehaviour
         //_sortType.sortType = _sortType.typeNames[10];
         if (!(currentType == "All")) //|| currentType == ""))
         {
+            //selectedItem = inv[i];
+            
             ItemTypes type = (ItemTypes)System.Enum.Parse(typeof(ItemTypes), currentType);
+            Debug.Log("all working");
             //the amount of this type
             int a = 0;
             //new slot position of the Item
@@ -96,6 +113,12 @@ public class InventroyControls : MonoBehaviour
 
             for (int i = 0; i < inv.Count; i++)
             {
+                GameObject newButton = Instantiate(buttonInvTemplate) as GameObject;
+                newButton.SetActive(true);
+
+                newButton.GetComponent<InventoryButton>().SetIcon(inv[i].Icon);
+                newButton.transform.SetParent(buttonInvTemplate.transform.parent, false);
+                Debug.Log("for if invcount working");
                 //if current element matches type
                 if (inv[i].ItemTypes == type)
                 {
@@ -109,7 +132,7 @@ public class InventroyControls : MonoBehaviour
                         newButton.GetComponent<InventoryButton>().SetIcon(newItem.Icon);
                         newButton.transform.SetParent(buttonInvTemplate.transform.parent, false);
                     }*/
-
+                    Debug.Log("for if inv[]I working");
                 }
             }
             if (a <= 64)
@@ -118,16 +141,15 @@ public class InventroyControls : MonoBehaviour
                 {
                     if (inv[i].ItemTypes == type)
                     {
-                        selectedItem = inv[i];
-
-                        foreach (Item selectedItem in inv)
+                        
+                        /*foreach (Item ItemsInv in inv)
                         {
                             GameObject newButton = Instantiate(buttonInvTemplate) as GameObject;
                             newButton.SetActive(true);
 
-                            newButton.GetComponent<InventoryButton>().SetIcon(selectedItem.Icon);
+                            newButton.GetComponent<InventoryButton>().SetIcon(ItemsInv.Icon);
                             newButton.transform.SetParent(buttonInvTemplate.transform.parent, false);
-                        }
+                        }*/
                     }
                 }
             }
@@ -168,6 +190,7 @@ public class InventroyControls : MonoBehaviour
 
                         newButton.GetComponent<InventoryButton>().SetIcon(selectedItem.Icon);
                         newButton.transform.SetParent(buttonInvTemplate.transform.parent, false);
+                        Debug.Log("else working");
                     }
                 }
             }

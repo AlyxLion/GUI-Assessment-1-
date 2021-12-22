@@ -17,6 +17,7 @@ public class Item
     private int _armour;
     private int _heal;
     //Icon
+    //private Texture2D _icon;
     private Sprite _icon;
     //Mesh
     private GameObject _mesh;
@@ -51,6 +52,7 @@ public class Item
         set { _value = value; }
     }
     public Sprite Icon
+    //public Texture2D Icon
     {
         get { return _icon; }
         set { _icon = value; }

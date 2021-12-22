@@ -16,8 +16,11 @@ public class ButtonListControl : MonoBehaviour
     public string sortType;
     //allows the the creation of a list of game object running at the name buttons
     private List<GameObject> buttons;
+    
     //makes a way for current clicked sting to be seen in inventory controls 
+    [SerializeField]
     private InventroyControls invCon;
+
     //passes a string to inventory controles that can then be converted to a string in inventory controles
     public string sortTypeClick;
 
@@ -26,7 +29,7 @@ public class ButtonListControl : MonoBehaviour
     void Start()
     {
         //On start the string sortType has a current Value as defalut of "ALL"
-        sortType = "All";
+        //sortType = "All";
         #region other code
         /*buttons = new List<GameObject>();
         if (buttons.Count >0)
@@ -68,13 +71,13 @@ public class ButtonListControl : MonoBehaviour
         //calls the method so that the string can be passed to inventoryCortols Script.
         SendToInvCon();
     }
-    /// <summary>
-    /// I could probs just have buttonlistbutton send the data stright to inventory controls and bypass this scrip all together hmmmmm.
-    /// </summary>
+    // <summary>
+    // I could probs just have buttonlistbutton send the data stright to inventory controls and bypass this scrip all together hmmmmm.
+    //</summary>
     // this method that is call from buttonclicked is to send on the current clicked string data to inventory controls so it can gen diffrent buttons for the invtory Items to be seen.
     public void SendToInvCon()
     {
-        sortTypeClick = sortType;
+        //sortTypeClick = sortType;
         //takes the string data from sorttype that is then copied by sortTypeClick and sends it to inventory controls who will then copy it to use that string data in generating buttons based on that string data.
         invCon.SortTypeClick(sortTypeClick);
     }

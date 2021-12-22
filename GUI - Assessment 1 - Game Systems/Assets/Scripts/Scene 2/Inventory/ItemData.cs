@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public static class ItemData
+public class ItemData
 {
     public static Item CreateItem(int itemID)
     {

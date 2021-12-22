@@ -26,12 +26,12 @@ public class ButtonListButton : MonoBehaviour
     // when you click the button
     public void Onclick()
     {
-        
+        Debug.Log("onclicked " + myTextString);
         // when the new button that is made from the temp buttons is clicked its string name in its text will be sent back to button list control as the string. it is dynamic it changees as the button clicked changes
         //well i guess its also static like the button is made from a string but then once its made then the button is like the same right it no change but the script is run over many of the same sort of obj
         //so in a way the string from the button is static but the script is dynamic as you can only click on thing at a time so each time you do it changes that dynamic string to what ever is current yyaya
         buttonControl.ButtonClicked(myTextString);
-        //Debug.Log(myTextString);
+        
 
     }
 }
