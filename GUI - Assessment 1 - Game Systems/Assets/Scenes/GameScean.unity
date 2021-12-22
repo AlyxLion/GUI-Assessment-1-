@@ -1540,7 +1540,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 329177933}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 329177935}
+        m_TargetAssemblyTypeName: ButtonListButton, Assembly-CSharp
+        m_MethodName: Onclick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &329177933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1592,7 +1604,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myText: {fileID: 10870268}
-  buttonControl: {fileID: 676727051}
+  buttonControl: {fileID: 0}
+  myTextString: 
 --- !u!1001 &357462629
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3803,7 +3816,8 @@ MonoBehaviour:
   - Craftable
   - Quest
   - Misc
-  sortType: All
+  sortType: 
+  sortTypeClick: 
 --- !u!1 &677796521
 GameObject:
   m_ObjectHideFlags: 0
@@ -6817,7 +6831,7 @@ GameObject:
   - component: {fileID: 1134793677}
   - component: {fileID: 1134793676}
   m_Layer: 5
-  m_Name: 'Inventory Scroll Type '
+  m_Name: 'Inventory Scroll itemTypes '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10370,7 +10384,7 @@ GameObject:
   - component: {fileID: 1703790850}
   - component: {fileID: 1703790849}
   m_Layer: 5
-  m_Name: Inventory Scroll menu
+  m_Name: Inventory Scroll menu items
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11153,18 +11167,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonInvTemplate: {fileID: 1462578890}
   gridGroup: {fileID: 1027182825}
-  typeNames:
-  - All
-  - Armour
-  - Trinket
-  - Weapon
-  - Potion
-  - Scroll
-  - Food
-  - Ingredient
-  - Material
-  - Misc
   _sortType: {fileID: 0}
+  currentType: 
 --- !u!114 &1915353849
 MonoBehaviour:
   m_ObjectHideFlags: 0
